@@ -43,11 +43,11 @@ export function TrustIndicators() {
             ))}
           </div>
           <p className="text-lg mb-4">
-            "Working with Sabarish was transformative for our business. Our conversion rate tripled within the first month of launching the new site."
+            "Working with NEXGEN was transformative for our business. Our conversion rate tripled within the first month of launching the new site."
           </p>
           <div>
-            <div className="text-sm">Sarah Chen</div>
-            <div className="text-sm text-muted-foreground">CEO, TechFlow</div>
+            <div className="text-sm">charan</div>
+            <div className="text-sm text-muted-foreground">CEO fitcaptures</div>
           </div>
         </motion.div>
       </div>
