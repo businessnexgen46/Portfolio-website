@@ -94,7 +94,7 @@ export function Portfolio() {
               animate={visibleProjects.has(index) ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: visibleProjects.has(index) ? index * 0.1 : 0 }}
               whileHover={{ scale: 1.02 }}
-              className="group relative overflow-hidden rounded-2xl bg-card border-2 border-border hover:border-primary hover:shadow-2xl transition-all duration-500 block hover:bg-primary/5 min-h-[300px]"
+              className="group relative overflow-hidden rounded-2xl bg-card border-2 border-border hover:border-[#4C1D95] hover:shadow-2xl transition-all duration-500 block hover:bg-[#4C1D95]/5 min-h-[300px]"
             >
               <div className="relative aspect-[16/10] overflow-hidden bg-gray-900">
                 <ImageWithFallback
@@ -103,7 +103,7 @@ export function Portfolio() {
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#4C1D95]/90 via-[#4C1D95]/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                 {/* Always visible content */}
                        <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent group-hover:opacity-0 transition duration-300">

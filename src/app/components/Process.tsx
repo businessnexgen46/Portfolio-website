@@ -60,12 +60,12 @@ export function Process() {
                 <div className="flex flex-col items-center text-center">
                   <motion.div
                     whileHover={{ scale: 1.1, rotate: 5 }}
-                    className="relative bg-background border-2 border-border rounded-2xl w-40 h-40 flex items-center justify-center mb-6 hover:border-primary/50 transition-colors"
+                    className="relative bg-background border-2 border-border rounded-2xl w-40 h-40 flex items-center justify-center mb-6 hover:border-[#4C1D95]/50 transition-colors"
                   >
                     <div className="absolute -top-4 -right-4 text-6xl opacity-10">
                       {step.number}
                     </div>
-                    <step.icon className="text-primary relative z-10" size={48} />
+                    <step.icon className="text-[#4C1D95] relative z-10" size={48} />
                   </motion.div>
 
                   <h3 className="text-xl mb-3">{step.title}</h3>

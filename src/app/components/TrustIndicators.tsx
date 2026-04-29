@@ -39,7 +39,7 @@ export function TrustIndicators() {
         >
           <div className="flex gap-1 mb-4">
             {[...Array(5)].map((_, i) => (
-              <Star key={i} size={20} className="fill-primary text-primary" />
+              <Star key={i} size={20} className="fill-[gold] text-gold" />
             ))}
           </div>
           <p className="text-lg mb-4">

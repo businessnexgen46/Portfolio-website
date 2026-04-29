@@ -116,7 +116,7 @@ export function ContactForm({
             onChange={handleChange}
             placeholder="Your name"
             required
-            className="w-full px-4 py-3 bg-input-background rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/20"
+            className="w-full px-4 py-3 bg-input-background rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-[#4C1D95]/20"
           />
           <input
             type="email"
@@ -125,7 +125,7 @@ export function ContactForm({
             onChange={handleChange}
             placeholder="you@company.com"
             required
-            className="w-full px-4 py-3 bg-input-background rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/20"
+            className="w-full px-4 py-3 bg-input-background rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-[#4C1D95]/20"
           />
         </div>
         <textarea
@@ -141,7 +141,7 @@ export function ContactForm({
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           disabled={isSubmitting}
-          className="w-full px-8 py-4 bg-primary text-primary-foreground rounded-lg flex items-center justify-center gap-2 hover:shadow-xl transition-shadow disabled:opacity-50"
+          className="w-full px-8 py-4 bg-[#4C1D95] text-white rounded-lg flex items-center justify-center gap-2 hover:shadow-xl transition-shadow disabled:opacity-50"
         >
           {isSubmitting ? (
             'Sending...'
@@ -199,7 +199,7 @@ export function ContactForm({
                 placeholder={field.placeholder}
                 rows={4}
                 required={field.required}
-                className="w-full px-4 py-3 bg-input-background rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/20 resize-none"
+                className="w-full px-4 py-3 bg-input-background rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-[#4C1D95]/20 resize-none"
               />
             ) : (
               <input
@@ -209,7 +209,7 @@ export function ContactForm({
                 onChange={handleChange}
                 placeholder={field.placeholder}
                 required={field.required}
-                className="w-full px-4 py-3 bg-input-background rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary/20"
+                className="w-full px-4 py-3 bg-input-background rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-[#4C1D95]/20"
               />
             )}
           </div>
@@ -219,7 +219,7 @@ export function ContactForm({
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           disabled={isSubmitting}
-          className="w-full px-8 py-4 bg-primary text-primary-foreground rounded-lg flex items-center justify-center gap-2 hover:shadow-xl transition-shadow disabled:opacity-50"
+          className="w-full px-8 py-4 bg-[#4C1D95] text-white rounded-lg flex items-center justify-center gap-2 hover:shadow-xl transition-shadow disabled:opacity-50"
         >
           {isSubmitting ? (
             'Sending...'

@@ -21,7 +21,7 @@ export function Navbar() {
             transition={{ delay: 0.2 }}
             className="text-xl tracking-tight"
           >
-            SABARISH
+            NEXGEN  
           </motion.div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -44,9 +44,9 @@ export function Navbar() {
               transition={{ delay: 0.6 }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-5 py-2.5 bg-primary text-primary-foreground rounded-lg hover:shadow-lg transition-all"
+              className="px-5 py-2.5 bg-[#4C1D95] text-white rounded-lg hover:shadow-lg transition-all"
             >
-              Contact Me
+              Start project
             </motion.a>
           </div>
 

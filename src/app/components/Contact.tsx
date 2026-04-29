@@ -23,37 +23,37 @@ export function Contact() {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      url: "https://linkedin.com/in/sabarish",
+      url: "https://www.linkedin.com/in/nex-gen-services-19a629400/",
       color: "hover:bg-gradient-to-br hover:from-[#0A66C2] hover:via-[#0A66C2] hover:to-[#0A66C2] hover:text-white",
     },
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/sabarish",
+      url: "https://github.com/businessnexgen46",
       color: "hover:bg-gradient-to-br hover:from-[#181717] hover:via-[#181717] hover:to-[#181717] hover:text-white",
     },
     {
       name: "Instagram",
       icon: Instagram,
-      url: "https://instagram.com/sabarish",
+      url: "https://www.instagram.com/nexgen_06/",
       color: "hover:bg-gradient-to-br hover:from-[#833AB4] hover:via-[#FD1D1D] hover:to-[#FCB045] hover:text-white",
     },
     {
       name: "Threads",
       icon: MessageCircle,
-      url: "https://threads.net/sabarish",
+      url: "https://www.threads.com/@nexgen_06",
       color: "hover:bg-gradient-to-br hover:from-[  #000000] hover:via-[#000000] hover:to-[#000000] hover:text-white",
     },
     {
       name: "Facebook",
       icon: Facebook,
-      url: "https://facebook.com/sabarish",
+      url: "https://www.facebook.com/profile.php?id=61574358656270",
       color: "hover:bg-gradient-to-br hover:from-[#1877F2] hover:via-[#1877F2] hover:to-[#1877F2] hover:text-white",
     },
     {
       name: "X (Twitter)",
       icon: Twitter,
-      url: "https://twitter.com/sabarish",
+      url: "https://x.com/nex_gen06",
       color: "hover:bg-gradient-to-br hover:from-[#833AB4] hover:via-[#FD1D1D] hover:to-[#FCB045] hover:text-white",
     },
   ];
@@ -87,7 +87,7 @@ export function Contact() {
               href="tel:+1234567890"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 bg-primary text-primary-foreground rounded-lg flex items-center justify-center gap-2 hover:shadow-xl transition-shadow"
+              className="px-8 py-4 bg-[#4C1D95] text-white rounded-lg flex items-center justify-center gap-2 hover:shadow-xl transition-shadow"
             >
               <Phone size={20} />
               +91 99400 37968

@@ -54,7 +54,7 @@ export function About() {
               className="group bg-card border border-border rounded-2xl p-8 hover:shadow-2xl hover:border-primary/20 transition-all duration-300"
             >
               <div className="bg-primary/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <card.icon className="text-primary" size={28} />
+                <card.icon className="text-[#4C1D95]" size={28} />
               </div>
               <h3 className="text-xl mb-3">{card.title}</h3>
               <p className="text-muted-foreground">{card.description}</p>

@@ -60,13 +60,13 @@ export function Services() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
               whileHover={{ scale: 1.02, transition: { duration: 0.3 } }}
-              className="group bg-background border border-border rounded-2xl p-8 hover:shadow-2xl hover:border-primary/30 transition-all duration-300 relative overflow-hidden"
+              className="group bg-background border border-border rounded-2xl p-8 hover:shadow-2xl hover:border-dark voilet/30 transition-all duration-300 relative overflow-hidden"
             >
               <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-500" />
 
               <div className="relative">
-                <div className="bg-primary/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                  <service.icon className="text-primary" size={28} />
+                <div className="bg-dark voilet/10 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#4C1D95]/20 transition-colors">
+                  <service.icon className="text-[#4C1D95]" size={28} />
                 </div>
                 <h3 className="text-2xl mb-3">{service.title}</h3>
                 <p className="text-muted-foreground mb-6">{service.description}</p>

@@ -45,7 +45,7 @@ export function Hero() {
             animate={{ rotate: 360 }}
             transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
           >
-            <Sparkles size={16} className="text-primary" />
+            <Sparkles size={16} className="text-[#4C1D95]" />
           </motion.div>
           <span className="text-sm">Available for New Projects</span>
         </motion.div>
@@ -56,14 +56,14 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-5xl md:text-7xl mb-4 max-w-4xl mx-auto leading-tight font-bold"
         >
-          Sabarish A
+          NEXGEN  
         </motion.h1>
 
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="text-3xl md:text-5xl mb-6 max-w-4xl mx-auto leading-tight text-primary"
+          className="text-3xl md:text-5xl mb-6 max-w-4xl mx-auto leading-tight text-[#4C1D95]"
         >
           I build websites that don't just look good  they generate clients.
         </motion.h2>
@@ -86,7 +86,7 @@ export function Hero() {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-4 bg-primary text-primary-foreground rounded-lg flex items-center justify-center gap-2 hover:shadow-xl transition-shadow"
+            className="px-8 py-4 bg-[#4C1D95] text-white rounded-lg flex items-center justify-center gap-2 hover:shadow-xl transition-shadow"
             onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
           >
             View Projects
