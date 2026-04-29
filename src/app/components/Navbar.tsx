@@ -19,9 +19,21 @@ export function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-xl tracking-tight"
+            className="flex items-center gap-3"
           >
-            NEXGEN  
+            <motion.a
+              href="#"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="flex items-center gap-3 hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="/images/Nexgen logo.png"
+                alt="NEXGEN"
+                className="w-8 h-8 rounded-full object-cover border-2 border-[#4C1D95]/20"
+              />
+              <span className="text-xl tracking-tight">NEXGEN</span>
+            </motion.a>
           </motion.div>
 
           <div className="hidden md:flex items-center gap-8">
@@ -82,7 +94,7 @@ export function Navbar() {
               Contact Me
             </a>
           </motion.div>
-        )}
+        )}  
       </div>
     </motion.nav>
   );
